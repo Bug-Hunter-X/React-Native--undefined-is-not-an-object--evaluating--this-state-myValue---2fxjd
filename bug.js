@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has mounted.  This often happens when using async functions within `useEffect` hooks that attempt to update state before the component has fully rendered.
